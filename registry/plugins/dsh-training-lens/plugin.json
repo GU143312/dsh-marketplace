@@ -16,9 +16,9 @@
     "platforms": ["linux", "macos", "windows"]
   },
   "install": {
-    "target": "git",
-    "spec": "github:GU143312/dsh-training-lens#30250ee658e713482fd786ebeb8211dc9bc51e99",
-    "command": "dsh plugin --profile {profile} add github:GU143312/dsh-training-lens#30250ee658e713482fd786ebeb8211dc9bc51e99"
+    "target": "npm",
+    "spec": "dsh-training-lens",
+    "command": "dsh plugin --profile {profile} add dsh-training-lens"
   },
   "verified": false,
   "maintainers": ["GU143312"],
